@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "PracticeOne.Controllers.BookController",
+    "Method": "GetMethod",
+    "RelativePath": "api/Book",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticeOne.Controllers.BookController",
+    "Method": "postmethod",
+    "RelativePath": "api/Book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "PracticeOne.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticeOne.Controllers.BookController",
+    "Method": "deletmethod",
+    "RelativePath": "api/Book",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PracticeOne.Controllers.BookController",
+    "Method": "editmethod",
+    "RelativePath": "api/Book",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "data",
+        "Type": "PracticeOne.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
